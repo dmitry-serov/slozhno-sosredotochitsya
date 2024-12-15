@@ -2,3 +2,84 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --page-bg-image: url(/images/cover-image-dark.png);
+  --main-margin: 50px;
+  --main-text-color: #f1b2ce;
+  --main-bg-color: #000028;
+  --main-font: "IBM Plex mono", monospace;
+  --rec-element-display: flex;
+  --heading-weight: bold;
+  --heading-size: 18px;
+  --main-font-size: 18px;
+  --main-line-height: 1.3;
+  --body-padding: 10px;
+  --articles-gap: 21px;
+  --article-gap: 10px;
+  --section-gap: 20px;
+  --accent-color: #ff0070;
+  --accent-text-color: #000028;
+  --nav-color: #ff0070;
+  --nav-color-hover: rgba(255, 0, 112, 0.4);
+  --main-heading-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --main-heading-color: #db00ff;
+  --main-heading-shadow-color: #ff0070;
+  --main-heading-line-height: 0.825;
+  --main-subheading-inline-size: 355px;
+  --heading-color: #ff0070;
+
+
+
+--header-nav-margin-block-start: 65px;
+--header-nav-margin-block-end: 65px;
+--header-subheading-margin-block: 57px;
+--header__theme-menu-justify: end;
+--header__theme-menu-list-direction: column;
+
+
+
+--gallery-gap: 10px;
+
+--footer-block-size: 647px;
+
+
+}
+
+
+@media (width >= 768px) {
+  :root {
+    --body-padding: 20px;
+    --header-nav-margin-block-start: 170px;
+    --header-nav-margin-block-end: 173px;
+    --header-subheading-margin-block: 164px;
+    --main-heading-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --main-heading-margin-inline-start: -20px;
+    --main-subheading-inline-size: 364px;
+    --main-margin: 80px;
+    --why-grid-template-columns: 1fr 2fr;
+    --causes-section-heading-inline-size: calc((100% - var(--section-gap) * 2) / 3);
+    --advices-grid-template-columns: 1fr 2fr;
+    --gallery-content-grid-template-columns: 1fr 1fr 1fr;
+    --gallery-gap: 20px;
+    --gallery-image-large: span 2;
+    --footer-block-size: 984px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --header__theme-menu-justify: center;
+    --header__theme-menu-list-direction: row;
+    --header-nav-margin-block-start: 0;
+    --header-nav-margin-block-end: 273px;
+    --main-subheading-inline-size: 491px;
+    --header-subheading-margin-block: 114px;
+    --causes-articles-grid-template-columns: 1fr 1fr 1fr;
+    --footer-block-size: 728px;
+    --why-grid-template-columns: calc(100% / 3 - var(--section-gap) / 3 * 2) calc(100% / 3 * 2 - var(--section-gap) / 3);
+    --advices-grid-template-columns: calc(100% / 3 - var(--section-gap) / 3 * 2) calc(100% / 3 * 2 - var(--section-gap) / 3);
+
+
+  }
+}
