@@ -37,7 +37,7 @@
 
   --gallery-gap: 10px;
 
-  --footer-block-size: 647px;
+  --min-height: 668px;
 }
 
 @media (width >= 768px) {
@@ -59,12 +59,12 @@
     --gallery-content-grid-template-columns: 1fr 1fr 1fr;
     --gallery-gap: 20px;
     --gallery-image-large: span 2;
-    --footer-block-size: 984px;
+    --min-height: 1024px;
   }
 }
 
 @media (width >= 1024px) {
-  
+
   :root {
     --header__theme-menu-justify: center;
     --header__theme-menu-list-direction: row;
@@ -73,7 +73,7 @@
     --main-subheading-inline-size: 491px;
     --header-subheading-margin-block: 114px;
     --causes-articles-grid-template-columns: 1fr 1fr 1fr;
-    --footer-block-size: 728px;
+    --min-height: 768px;
     --why-grid-template-columns: calc(100% / 3 - var(--section-gap) / 3 * 2)
       calc(100% / 3 * 2 - var(--section-gap) / 3);
     --advices-grid-template-columns: calc(100% / 3 - var(--section-gap) / 3 * 2)

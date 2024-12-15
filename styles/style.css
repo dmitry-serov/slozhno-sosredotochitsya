@@ -20,6 +20,8 @@
     'menu'
     'heading'
     'subheading';
+    block-size: calc(100vh - var(--body-padding) * 2);
+    min-block-size: calc(var(--min-height) - var(--body-padding) * 2);
 }
 
 .decorated-zone {
@@ -251,7 +253,8 @@
   display: grid;
   justify-items: center;
   align-content: center;
-  block-size: var(--footer-block-size);
+  block-size: calc(100vh - var(--body-padding) * 2);
+  min-block-size: calc(var(--min-height) - var(--body-padding) * 2);
 }
 
 .footer .main-heading {
