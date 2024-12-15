@@ -16,10 +16,10 @@
   display: grid;
   align-items: start;
   justify-items: end;
-  grid-template-areas: 
-  'menu'
-  'heading'
-  'subheading';
+  grid-template-areas:
+    'menu'
+    'heading'
+    'subheading';
 }
 
 .decorated-zone {

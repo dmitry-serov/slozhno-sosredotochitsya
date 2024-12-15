@@ -23,8 +23,9 @@
 }
 
 @media (prefers-color-scheme: light) {
+  
   :root {
-    /* Дублируем переменные светлой темы */ 
+    /* Дублируем переменные светлой темы */
     --page-bg-image: url(/images/cover-image-light.png);
     --main-bg-color: #fff1f7;
     --main-text-color: #353430;
@@ -34,6 +35,6 @@
     --main-heading-color: #ffc2e6;
     --main-heading-shadow-color: #ff0070;
     --accent-color: #ff8dcb;
-    --heading-color: #353430;   
+    --heading-color: #353430;
   }
 }
